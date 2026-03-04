@@ -1,0 +1,60 @@
+body {
+    background-color: #cfe8ff;
+    color: #0b2d4a;
+    margin: 0;
+    padding: 2rem;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: "DM Serif Display", "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+main {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #0b2d4a;
+    margin: 1.5rem 0;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+a {
+    color: #0b2d4a;
+}
+
+a:visited {
+    color: #5a2d82;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
