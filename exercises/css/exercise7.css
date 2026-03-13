@@ -1,0 +1,87 @@
+body {
+    background-color: #d9e6f2;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: right;
+}
+
+main {
+    border: 0 solid red;
+}
+
+article {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 1.3rem;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.8rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+header a:link {
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+header a:active {
+    color: gray;
+    text-decoration: underline;
+}
+
+h2.logo {
+    background-color: #4a90e2;
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+}
+
+.wrapper {
+    border: 0 solid black;
+    margin: auto;
+    max-width: 40rem;
+}
