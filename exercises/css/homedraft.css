@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  color: white;
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  padding: 25px 60px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.resume-button {
+  border: 1px solid orange;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: orange;
+}
+
+.hero {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.small-title {
+  border: 1px solid orange;
+  border-radius: 20px;
+  padding: 8px 18px;
+  color: orange;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.hero h1 {
+  font-size: 96px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 29px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-button {
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+}
+
+.secondary-button {
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  border: 1px solid white;
+  color: white;
+}
