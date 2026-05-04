@@ -129,19 +129,19 @@ nav a:hover {
 }
 
 #name {
-    font-size: 3rem;
+    font-size: 3.25rem;
     margin: 0;
     color: palegoldenrod;
 }
 
 #toptext {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 #bottomtext {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 /*about */
