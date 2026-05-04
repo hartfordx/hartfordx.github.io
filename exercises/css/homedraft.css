@@ -1,7 +1,8 @@
 html {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0px;
-    background-image: url("../../images/free2.jpg")
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
 }
 
 * {
@@ -44,7 +45,8 @@ nav a {
 
 nav a:hover {
   color: palegoldenrod;
-  transform: scale(1.2);
+  transform: scale(1.1);
+  transition: transform 0.2s, border-radius 0.2s;
 }
 
 .navbarlinks {
@@ -58,16 +60,28 @@ nav a:hover {
     display: grid;
     align-items: center;
     padding-left: 1rem;
+    margin: 0;
 }
 
 #header > h1 a {
     color: white;
     text-decoration: none;
+    display: grid;
+    align-items: center;
+}
+
+#header > h1 a img {
+    height: 10vh;
+    width: 13vh;
+    display: block;
+    object-fit: cover;
+    object-position: center;
 }
 
 #header > h1 a:hover {
   color: palegoldenrod;
-  background-color: rgb(44, 44, 44);
+  transform: scale(1.01);
+  transition: transform 0.2s, border-radius 0.2s;
 }
 
 #aboutnavbar {
@@ -100,6 +114,11 @@ nav a:hover {
     display: grid;
     align-items: center;
     justify-items: center;
+}
+
+.homebackground {
+    background-image: url("../../images/free2.jpg");
+    background-position: center 24%;
 }
 
 #intro {
@@ -165,3 +184,21 @@ div#contact {
     padding: 1.3rem;
     text-align: center;
 }
+
+/*projects/work*/
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.projects article {
+    background-color: rgb(44, 44, 44);
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+/*resume*/
