@@ -241,6 +241,7 @@ footer {
     gap: 1rem;
     width: 90%;
     margin: auto;
+    text-align: center;
 }
 
 .projects article {
