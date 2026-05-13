@@ -21,14 +21,14 @@ body {
 #header {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(30, 30, 30);
     height: 10vh;
     margin: 0;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
 }
-
+/*Navigation */
 nav {
     grid-column: 2 / 3;
     display: grid;
@@ -149,6 +149,23 @@ main h1 {
     color: palegoldenrod;
 }
 
+/*Nice Image Credits */
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+figcaption a,
+footer a {
+    color: palegoldenrod;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(30, 30, 30);
+}
 
 /*about */
 
@@ -161,7 +178,7 @@ main h1 {
 }
 
 #aboutme {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(30, 30, 30);
     border: 1px solid gray;
     padding: 1.3rem;
     display: grid;
@@ -200,7 +217,7 @@ main h1 {
 }
 
 .contactgrid a {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(30, 30, 30);
     border: 1px solid gray;
     padding: 2rem;
     text-align: center;
@@ -227,7 +244,7 @@ main h1 {
 }
 
 .projects article {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(30, 30, 30);
     border: 1px solid gray;
     padding: 1rem;
 }
@@ -238,7 +255,7 @@ main h1 {
 
 /*resume*/
 .resume {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(30, 30, 30);
     border: 1px solid gray;
     width: 80%;
     margin: 2rem auto;
