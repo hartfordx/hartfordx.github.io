@@ -10,11 +10,11 @@ html {
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     margin: 0px;
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 10vh auto;
     grid-template-columns: 1fr;
 }
 
@@ -144,46 +144,77 @@ nav a:hover {
     font-size: 1.25rem;
 }
 
+main h1 {
+    text-align: center;
+    color: palegoldenrod;
+}
+
+
 /*about */
 
-.wrapper {
-    border: 0 solid rgb(44, 44, 44);
+.aboutgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 80%;
     margin: auto;
-    max-width: 50%;
 }
 
-main h1 {
-    text-align: center;
-}
-
-div#aboutme {
+#aboutme {
     background-color: rgb(44, 44, 44);
     border: 1px solid gray;
     padding: 1.3rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 2rem;
 }
 
-.image {
+#aboutimage {
+    margin: 0;
     text-align: center;
 }
 
+#aboutimage img {
+    width: 100%;
+}
+
+#aboutimage figcaption {
+    margin-top: 0.5rem;
+}
+
+#headshot {
+    display: block;
+    width: 20%;
+    margin: 2rem auto;
+    border: 1px solid gray;
+}
 /*contact*/
 
-.wrapper2 {
-    border: 0 solid rgb(44, 44, 44);
+.contactgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 50%;
     margin: auto;
-    max-width: 25%;
 }
 
-main h1 {
-    text-align: center;
-}
-
-div#contact {
+.contactgrid a {
     background-color: rgb(44, 44, 44);
     border: 1px solid gray;
-    padding: 1.3rem;
+    padding: 2rem;
     text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
 }
+
+.contactgrid a:hover {
+    color: palegoldenrod;
+    transform: scale(1.08);
+    transition: transform 0.2s, border-radius 0.2s;
+}
+
 
 /*projects/work*/
 
@@ -201,4 +232,47 @@ div#contact {
     padding: 1rem;
 }
 
+.projects h2 {
+    text-decoration: underline; 
+}
+
 /*resume*/
+.resume {
+    background-color: rgb(44, 44, 44);
+    border: 1px solid gray;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.resume h1 {
+    text-align: center;
+    color: palegoldenrod;
+}
+
+.resume address {
+    text-align: center;
+    font-style: normal;
+}
+
+.resume h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5rem;
+    color: palegoldenrod;
+}
+
+.resume h3 {
+    margin-bottom: 0;
+}
+
+.resume p {
+    margin-top: 0.3rem;
+}
+
+.resume a {
+    color: white;
+}
+
+.resume ul {
+    margin-top: 0.5rem;
+}
